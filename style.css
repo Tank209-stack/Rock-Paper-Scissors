@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body , html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#result{
+    background-color: yellowgreen;
+}
+#game-container{
+  color: red;
+  width: 50%;
+  height: 50%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid red;
+  padding: 10px 10px
+}
+#playbtn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    margin-top: 20px; 
+}
+button{
+    padding: 20px 30px;
+    font-size: 20px;
+}
+.tag-container , .span-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+}
+#Player-span , #Rounds-span , #Computer-span{
+    text-align: center;
+    border: 4px solid black;
+    padding: 5px 10px;
+}
+#result {
+    margin-top: 20px;
+    font-size: 20px;
+}
+ .end{
+    display: none;
+ }
+ #end-note{
+    font-size: 35px;
+    margin-bottom: 20px;
+ }

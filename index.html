@@ -4,9 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div id="game-container">
+        <div class="score-container">
+            <div class="tag-container">
+                <div id="playerScore">Player</div>
+                <div id="rounds">Rounds</div>
+                <div id="computerScore">Computer</div>
+            </div>
+            <div class="span-container">
+                <span id="Player-span"></span>
+                <span id="Rounds-span"></span>
+                <span id="Computer-span"></span>
+            </div>
+        </div>
+        <h1>Rock Paper Scissor</h1>
+        <div id="playbtn">
+            <button id="Rock">Rock</button>
+            <button id="Paper">Paper</button>
+            <button id="Scissor">Scissor</button>
+        </div>
+        <div id="result"></div>
+    </div>
+    <div class="end">
+        <div id="end-note"> GameOver <span class="end-span"></span></div>
+        <button id="restartbtn">Restart</button>
+    </div>
 </body>
 <script src="script.js"></script>
 </html>
